@@ -1,0 +1,13 @@
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick\bin\Debug\netcoreapp3.1\MobyDick.exe
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick\bin\Debug\netcoreapp3.1\MobyDick.deps.json
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick\bin\Debug\netcoreapp3.1\MobyDick.runtimeconfig.json
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick\bin\Debug\netcoreapp3.1\MobyDick.runtimeconfig.dev.json
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick\bin\Debug\netcoreapp3.1\MobyDick.dll
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick\bin\Debug\netcoreapp3.1\MobyDick.pdb
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick\obj\Debug\netcoreapp3.1\MobyDick.csprojAssemblyReference.cache
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick\obj\Debug\netcoreapp3.1\MobyDick.csproj.CoreCompileInputs.cache
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick\obj\Debug\netcoreapp3.1\MobyDick.AssemblyInfoInputs.cache
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick\obj\Debug\netcoreapp3.1\MobyDick.AssemblyInfo.cs
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick\obj\Debug\netcoreapp3.1\MobyDick.dll
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick\obj\Debug\netcoreapp3.1\MobyDick.pdb
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick\obj\Debug\netcoreapp3.1\MobyDick.genruntimeconfig.cache

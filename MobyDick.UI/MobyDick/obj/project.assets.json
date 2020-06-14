@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ali\\Desktop\\MobyDickProject\\MobyDick.UI\\MobyDick\\MobyDick.csproj",
-      "projectName": "MobyDick",
-      "projectPath": "C:\\Users\\Ali\\Desktop\\MobyDickProject\\MobyDick.UI\\MobyDick\\MobyDick.csproj",
+      "projectUniqueName": "C:\\Users\\Ali\\Desktop\\MobyDickProject\\MobyDick.UI\\MobyDick\\MobyDick.UI.csproj",
+      "projectName": "MobyDick.UI",
+      "projectPath": "C:\\Users\\Ali\\Desktop\\MobyDickProject\\MobyDick.UI\\MobyDick\\MobyDick.UI.csproj",
       "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ali\\Desktop\\MobyDickProject\\MobyDick.UI\\MobyDick\\obj\\",
       "projectStyle": "PackageReference",
