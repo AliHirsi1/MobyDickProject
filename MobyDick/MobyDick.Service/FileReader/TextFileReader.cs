@@ -7,6 +7,14 @@ using System.Text;
 
 namespace MobyDick.Service.FileReader
 {
+    /*
+    * Author: Ali H
+    * 
+    * This class is designed to only read two text files line by line
+    * and break each line into words and return the text as list 
+    * to be manipuated and return 100 most frequently occurring words excluding stoop-watch.
+    * 
+    */
     public class TextFileReader : IFileReader
     {
         public List<string> MobyDickReader()
