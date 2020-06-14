@@ -1,4 +1,4 @@
-# Freely available stopword list.  This stopword
+# s Freely available stopword list.  This stopword
 
 # list provides a nice balance between coverage
 

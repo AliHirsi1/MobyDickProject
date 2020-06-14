@@ -24,7 +24,7 @@ namespace MobyDick.Service
             List<string> allFreq = new List<string>();
             var mobyDickList = textReader.MobyDickReader();
             foreach (var item in mobyDickList)
-            {
+            {                
                 if (!IsInStopWords(item))
                 {
                     allFreq.Add(item);
@@ -43,6 +43,7 @@ namespace MobyDick.Service
                 {
                     return true;
                 }
+                
             }
             return false;
         }
@@ -54,7 +55,7 @@ namespace MobyDick.Service
             Match match;
             foreach (var text in Result)
             {
-                match = Regex.Match(text, @"\w+");
+                match = Regex.Match(text, @"\S+");
                 while (match.Success)
                 {
                     string word = match.Value;
