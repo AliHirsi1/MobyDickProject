@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobyDick", "MobyDick\MobyDick.csproj", "{58DD422F-9C69-48D4-8A06-6ECEF1F8E119}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobyDick.Service", "MobyDick.Service\MobyDick.Service.csproj", "{48B67BE9-556E-4F3A-A7BA-0C949D297E25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobyDick.Test", "MobyDick.Test\MobyDick.Test.csproj", "{1E96766B-8F27-449D-AF67-6BA553828B1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{58DD422F-9C69-48D4-8A06-6ECEF1F8E119}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58DD422F-9C69-48D4-8A06-6ECEF1F8E119}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58DD422F-9C69-48D4-8A06-6ECEF1F8E119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B67BE9-556E-4F3A-A7BA-0C949D297E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B67BE9-556E-4F3A-A7BA-0C949D297E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B67BE9-556E-4F3A-A7BA-0C949D297E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B67BE9-556E-4F3A-A7BA-0C949D297E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E96766B-8F27-449D-AF67-6BA553828B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E96766B-8F27-449D-AF67-6BA553828B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E96766B-8F27-449D-AF67-6BA553828B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E96766B-8F27-449D-AF67-6BA553828B1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
