@@ -1,0 +1,4 @@
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick.Service\bin\Debug\netcoreapp3.1\MobyDick.Service.deps.json
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick.Service\bin\Debug\netcoreapp3.1\MobyDick.Service.dll
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick.Service\obj\Debug\netcoreapp3.1\MobyDick.Service.AssemblyInfoInputs.cache
+C:\Users\Ali\Desktop\MobyDickProject\MobyDick.UI\MobyDick.Service\obj\Debug\netcoreapp3.1\MobyDick.Service.AssemblyInfo.cs
