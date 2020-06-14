@@ -60,7 +60,8 @@ namespace MobyDick.Service.FileReader
         public List<string> StopWordsReader()
         {
             // Retrieve file path from App.Config
-            string stopWatchFilePath = ConfigurationManager.AppSettings["stopWordsFilePath"];
+            //string stopWatchFilePath = ConfigurationManager.AppSettings["stopWordsFilePath"];
+            string stopWatchFilePath = @"C:\Users\Ali\Desktop\AlliesInc\SourceAllies\SourceAllies\TextFiles\stop-words.txt";
             List<String> stopWatchText = new List<string>(); // declare list string to add all text and return
             try
             {
