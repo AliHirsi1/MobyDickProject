@@ -2,7 +2,9 @@
 using MobyDick.Service.Interface;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace MobyDick.Service
 {
@@ -45,9 +47,29 @@ namespace MobyDick.Service
             return false;
         }
 
-        public Dictionary<string, int> Top100FrequencyWords(List<string> words)
+        public Dictionary<string, int> Top100FrequencyWords()
         {
-            throw new NotImplementedException();
+            Dictionary<string, int> mostFreqWords = new Dictionary<string, int>();
+            var Result = GetAllFrequencyWordsExcludingStopWatchWords();
+            Match match;
+            foreach (var text in Result)
+            {
+                match = Regex.Match(text, @"\w+");
+                while (match.Success)
+                {
+                    string word = match.Value;
+                    if (mostFreqWords.ContainsKey(word))
+                    {
+                        mostFreqWords[word]++;
+                    }
+                    else
+                    {
+                        mostFreqWords.Add(word, 1);
+                    }
+                    match = match.NextMatch();
+                }
+            }
+            return mostFreqWords;
         }
     }
 }
