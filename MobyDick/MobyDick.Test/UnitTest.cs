@@ -30,6 +30,16 @@ namespace MobyDick.Test
             Assert.AreEqual(result, true);
         }
 
+        [Test]
+        public void Top100MostccurringWords_GetAllFrequencyWordsExcludingStopWatchWords()
+        {
+            var result = _topCount.GetAllFrequencyWordsExcludingStopWatchWords();
+            Assert.AreEqual("Project", result[0]);
+            Assert.AreEqual("Gutenberg", result[1]);
+            Assert.AreEqual("EBook", result[2]);
+
+        }
+
 
     }
 }
