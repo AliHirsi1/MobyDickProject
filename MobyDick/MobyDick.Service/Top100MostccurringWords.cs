@@ -55,7 +55,7 @@ namespace MobyDick.Service
             Match match;
             foreach (var text in Result)
             {
-                match = Regex.Match(text, @"\S+");
+                match = Regex.Match(text, @"\S+");                
                 while (match.Success)
                 {
                     string word = match.Value;

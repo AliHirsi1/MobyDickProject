@@ -33,6 +33,7 @@ namespace MobyDick.Service.FileReader
                     {
                         string line;
                         string[] words;
+                        string word;
                         // read the whole file until the end
                         while ((line = sr.ReadLine()) != null)
                         {
@@ -44,7 +45,9 @@ namespace MobyDick.Service.FileReader
                                 // TODO- not sure if digits should be inclueded.
                                 if (!String.IsNullOrEmpty(item))
                                 {
-                                    mobdyDickWords.Add(item);
+                                    // found out some words have Comma or Semicolons or period at the end
+                                    word = (item.Contains(",") || item.Contains(";") || item.Contains(".")) ? item.Remove(item.Length - 1) : item;                                    
+                                    mobdyDickWords.Add(word);
                                 }
                             }
                         }

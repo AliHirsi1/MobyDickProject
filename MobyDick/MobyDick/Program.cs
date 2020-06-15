@@ -9,16 +9,7 @@ namespace MobyDick
     {
         public static void Main(string[] args)
         {
-            //Top100MostccurringWords top = new Top100MostccurringWords();
-            ////TextFileReader txt = new TextFileReader();
-            //var arr = top.GetAllFrequencyWordsExcludingStopWatchWords();
-            //foreach (var r in arr)
-            //{
-            //    Console.WriteLine(r);
-            //}
-
-
-
+            
             Top100MostccurringWords top = new Top100MostccurringWords();
             var result = top.Top100FrequencyWords().OrderByDescending(x => x.Value).Take(100);
 
