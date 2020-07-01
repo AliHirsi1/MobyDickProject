@@ -1,9 +1,7 @@
 ﻿using MobyDick.Service.FileReader;
 using MobyDick.Service.Interface;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 
 namespace MobyDick.Service
@@ -18,16 +16,17 @@ namespace MobyDick.Service
   */
     public class Top100MostccurringWords : IFrequencyCount
     {
-        TextFileReader textReader = new TextFileReader();
+        TextFileReader _textReader = new TextFileReader();
         public List<string> GetAllFrequencyWordsExcludingStopWatchWords()
         {
             List<string> allFreq = new List<string>();
-            var mobyDickList = textReader.MobyDickReader();
-            foreach (var item in mobyDickList)
-            {                
-                if (!IsInStopWords(item))
+            var mobyDickList = _textReader.MobyDickReader();            
+            foreach (var word in mobyDickList)
+            {   
+                //Add words that are not in the stopWatch
+                if (!IsInStopWords(word))
                 {
-                    allFreq.Add(item);
+                    allFreq.Add(word);
                 }
             }
 
@@ -36,7 +35,7 @@ namespace MobyDick.Service
 
         public bool IsInStopWords(string word)
         {
-            var stopWatchList = textReader.StopWordsReader();
+            var stopWatchList = _textReader.StopWordsReader();
             foreach (var item in stopWatchList)
             {
                 if (item.ToLower() == word.ToLower())

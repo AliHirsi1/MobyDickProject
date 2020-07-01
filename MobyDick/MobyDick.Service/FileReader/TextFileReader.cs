@@ -67,6 +67,7 @@ namespace MobyDick.Service.FileReader
             //string stopWatchFilePath = ConfigurationManager.AppSettings["stopWordsFilePath"];
             string stopWatchFilePath = @"C:\Users\Ali\Desktop\AlliesInc\SourceAllies\SourceAllies\TextFiles\stop-words.txt";
             List<String> stopWatchText = new List<string>(); // declare list string to add all text and return
+           
             try
             {
                 if (File.Exists(stopWatchFilePath))
@@ -81,16 +82,8 @@ namespace MobyDick.Service.FileReader
                             // split lines into words by space
                             words = line.Split(" ");
 
-                            // loop through words and put into the list
-                            foreach (var item in words)
-                            {
-                                //check empty string or null. 
-                                // TODO- not sure if digits should be inclueded.
-                                if (!String.IsNullOrEmpty(item))
-                                {
-                                    stopWatchText.Add(item);
-                                }
-                            }
+                            // loop through words and put each in a list without empty strings
+                            stopWatchText.AddRange(words.Where(i => !i.Equals("")));             
                         }
                     }
                 };

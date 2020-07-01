@@ -14,4 +14,3 @@ C:\Users\Ali\Desktop\MobyDickProject\MobyDick\MobyDick.Service\obj\Debug\netcore
 C:\Users\Ali\Desktop\MobyDickProject\MobyDick\MobyDick.Service\obj\Debug\netcoreapp3.1\MobyDick.Service.AssemblyInfo.cs
 C:\Users\Ali\Desktop\MobyDickProject\MobyDick\MobyDick.Service\obj\Debug\netcoreapp3.1\MobyDick.Service.dll
 C:\Users\Ali\Desktop\MobyDickProject\MobyDick\MobyDick.Service\obj\Debug\netcoreapp3.1\MobyDick.Service.pdb
-C:\Users\Ali\Desktop\MobyDickProject\MobyDick\MobyDick.Service\obj\Debug\netcoreapp3.1\MobyDick.Service.csprojAssemblyReference.cache
